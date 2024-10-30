@@ -1,5 +1,10 @@
-cd username.github.io
-echo "Hello World" > index.html
+echo "# crrm" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/capatainrahamat/crrm.git
+git push -u origin mainl
 <!DOCTYPE html>
 <html lang="en">
 <head>
